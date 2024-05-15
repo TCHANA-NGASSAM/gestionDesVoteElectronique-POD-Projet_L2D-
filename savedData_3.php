@@ -25,7 +25,7 @@ $stmt->bindParam(":number",$number);
 $stmt->bindParam(":candidate",$candi);
 $stmt->bindParam(":rollno",$rollno);
 $stmt->bindParam(":reason",$reason);
-
+ 
 $stmt->execute();
 
 header('location:successfully.php');
