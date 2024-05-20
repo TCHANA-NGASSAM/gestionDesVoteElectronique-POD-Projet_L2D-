@@ -41,7 +41,7 @@ $rs =  $stmt->fetchAll();
     <div class="row">
         <div class="col-md-12">
             <div class="card-5">
-            <h2><strong>Result</strong></h2>
+            <h2><strong>Resultat</strong></h2>
             <hr>
         <?php foreach($rs as $row){
   
