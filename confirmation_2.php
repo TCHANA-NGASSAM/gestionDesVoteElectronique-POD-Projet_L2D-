@@ -28,18 +28,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto animate__animated animate__bounceInDown" style="padding-right: 50px;">
                 <li class="nav-item" >
-                  <a class="nav-link" href="index.html" style="color:white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Home</a>
+                  <a class="nav-link" href="index.html" style="color:white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Acceuil</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="candidate.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Candidate</a>
+                  <a class="nav-link" href="candidate.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Candidat</a>
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="result.php" style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Result</a>
+                  <a class="nav-link" href="result.php" style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Resultat</a>
                 </li>
               
                 <li class="nav-item" >
-                  <a class="nav-link" href="about.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">About</a>
+                  <a class="nav-link" href="about.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Apropos</a>
                 </li>
               
               </ul>
@@ -58,23 +58,23 @@
                 <form action="savedData_2.php" method="post">
                 <table>
                     <tr>
-                        <td class="td-1">Name :</td>
+                        <td class="td-1">Nom :</td>
                         <td class="td-1"><input type="text" required style="text-align: left;" name="txtName"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Email :</td>
+                        <td class="td-1"> Adresse mail :</td>
                         <td class="td-1"><input type="email" required style="text-align: left;" name="txtEmail"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Your Branch :</td>
+                        <td class="td-1">votre succursale :</td>
                         <td class="td-1"><input type="text" required style="text-align: left;" name="txtBranch"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Mobile Number :</td>
+                        <td class="td-1">Numéro de téléphone :</td>
                         <td class="td-1"><input type="number" required style="text-align: left;" name="txtNumber"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Candidate :</td>
+                        <td class="td-1">Candidat :</td>
 					<td class="td-1"><select required name="txtCand">
             <option>--------Select--------</option>
             <?php 
@@ -100,7 +100,7 @@
                         <td class="td-1"><input type="number"  required style="text-align: left;" name="txtRollNo"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Reason :</td>
+                        <td class="td-1">Raison :</td>
                         <td class="td-1"><textarea style="text-align: left;" name="txtReason" id="" cols="23" rows="4" placeholder="Why You Vote This Candidate any Reason ?"></textarea></td>
                     </tr>
                     <tr>
@@ -121,8 +121,8 @@
         <hr>
         <div class="Footer">
         <ul style="display: flex;">
-                  <li style="list-style: none; padding: 10px; "><a href="index.html" style="text-decoration: none; color: #a517ba;">Home</a></li>
-                  <li style="list-style: none; padding: 10px; "><a href="about.php" style="text-decoration: none; color: #a517ba;">About</a></li>
+                  <li style="list-style: none; padding: 10px; "><a href="index.html" style="text-decoration: none; color: #a517ba;">Acceuil</a></li>
+                  <li style="list-style: none; padding: 10px; "><a href="about.php" style="text-decoration: none; color: #a517ba;">Apropos</a></li>
                   <li style="list-style: none; padding: 10px; "><a href="suggestion.html" style="text-decoration: none; color: #a517ba;">Suggestion</a></li>
                   <li style="list-style: none; padding: 10px; "><a href="contact_form.php" style="text-decoration: none; color: #a517ba;">Contact</a></li>
                 </ul>
