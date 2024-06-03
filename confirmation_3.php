@@ -21,21 +21,21 @@
     <div class="container-fluid" id="cont-3">
         <header id="nav-bar">
           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" href=index.html  style="color: white; font-weight: 600; margin-top: 15px;">GO VOTE</a>
+            <a class="navbar-brand" href=index.html  style="color: white; font-weight: 600; margin-top: 15px;"> VOTE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon" style="color: white;"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto animate__animated animate__bounceInDown" style="padding-right: 50px;">
                 <li class="nav-item" >
-                  <a class="nav-link" href="index.html" style="color:white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Home</a>
+                  <a class="nav-link" href="index.html" style="color:white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Acceuil</a>
                 </li>
                 <li class="nav-item" >
-                  <a class="nav-link" href="candidate.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Candidate</a>
+                  <a class="nav-link" href="candidate.php"  style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Candidat</a>
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="result.php" style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Result</a>
+                  <a class="nav-link" href="result.php" style="color: white; font-weight: 600; text-align: center; font-size: 18px; margin-top: 20px;  text-transform: capitalize; padding: 20px;">Resultat</a>
                 </li>
               
                 <li class="nav-item" >
@@ -58,15 +58,15 @@
                 <form action="savedData_3.php" method="post">
                 <table>
                     <tr>
-                        <td class="td-1">Name :</td>
+                        <td class="td-1">Nom :</td>
                         <td class="td-1"><input   required type="text" style="text-align: left;" name="txtName"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Email :</td>
+                        <td class="td-1">Adresse mail :</td>
                         <td class="td-1"><input  required type="email" style="text-align: left;" name="txtEmail"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Your Branch :</td>
+                        <td class="td-1">Votre succ:</td>
                         <td class="td-1"><input   required type="text" style="text-align: left;" name="txtBranch"></td>
                     </tr>
                     <tr>
