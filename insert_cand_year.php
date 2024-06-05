@@ -33,13 +33,13 @@ include("header.html");
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-            <a href="insert_Candidates.php"><button style="margin-top:80px;" class="btn-special-2">1<sup>st</sup> Year </button></a>
+            <a href="insert_Candidates.php"><button style="margin-top:80px;" class="btn-special-2">1<sup>er</sup>vote</button></a>
             </div>
             <div class="col-md-12">
-            <a href="insert_Candidate_2nd.php"><button style="margin-top:80px;" class="btn-special-2">2<sup>nd</sup> Year </button></a>
+            <a href="insert_Candidate_2nd.php"><button style="margin-top:80px;" class="btn-special-2">2<sup>nd</sup>vote</button></a>
             </div>
             <div class="col-md-12">
-            <a href="insert_Candidate_3rd.php"><button style="margin-top:80px; " class="btn-special-2">3<sup>rd</sup> Year </button></a>
+            <a href="insert_Candidate_3rd.php"><button style="margin-top:80px; " class="btn-special-2">3<sup>rd</sup>vote</button></a>
             </div>
         </div>
     </div>
