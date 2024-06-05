@@ -25,7 +25,7 @@
     <div class="container-fluid" id="cont-3">
         <header id="nav-bar">
           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" href=index.html  style="color: white; font-weight: 600; margin-top: 15px;">GO VOTE</a>
+            <a class="navbar-brand" href=index.html  style="color: white; font-weight: 600; margin-top: 15px;">voter</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon" style="color: white;"></span>
             </button>
@@ -58,12 +58,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6" >
-                <h1 style="padding-top: 20px;">Candidate Enroll</h1>
-                <p style="padding-top: 20px;">3<sup>rd</sup> Year Enroll</p>
+                <h1 style="padding-top: 20px;">inscription du candidat</h1>
+                <p style="padding-top: 20px;">3<sup>rd</sup>annee d'inscription</p>
                 <form action="process_cand_3.php" method="post">
                 <table>
                     <tr>
-                        <td class="td-1">Name :</td>
+                        <td class="td-1">Nom:</td>
                         <td class="td-1"><input  required type="text" style="text-align: left;" name="txtName" autofocus></td>
                     </tr>
                     <tr>
@@ -71,7 +71,7 @@
                         <td class="td-1"><input  required type="email" style="text-align: left;" name="txtEmail"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Mobile Number :</td>
+                        <td class="td-1">tel :</td>
                         <td class="td-1"><input  required type="number" style="text-align: left;" name="txtNumber"></td>
                     </tr>
                     <tr>
