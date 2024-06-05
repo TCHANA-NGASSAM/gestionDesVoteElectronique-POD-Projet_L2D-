@@ -69,12 +69,12 @@ CREATE TABLE IF NOT EXISTS `candidates` (
 --
 
 INSERT INTO `candidates` (`id`, `name`, `email`, `mobile`, `branch`, `rollno`, `enrollid`, `approve_status`) VALUES
-(31, 'Abhay', 'mayank@gmail.com', 1234, 'Information Technology', 2314, '1324', 0),
-(30, 'Abhay', 'mayank@gmail.com', 1234, 'Information Technology', 2314, '1324', 2),
-(29, 'Abhay', 'mayank@gmail.com', 485, 'Information Technology', 6845, '85', 2),
-(28, 'Mayank', 'mayank@gmail.com', 626887802, 'Information Technology', 205503318002, 'BF667@csvtu.ac.in', 1),
-(26, 'Prakash', 'prakashverma@gmail.com', 6268882620, 'Information Technology', 525296, 'sdfsdfgr', 1),
-(27, 'Aditya Kumar', 'adityakumarverified@gmail.com', 6268887802, 'Information Technology', 205503318002, 'sdfsafd', 1);
+(31, 'adrien', 'adrien@gmail.com', 1234, 'Information Technology', 2314, '1324', 0),
+(30, 'yvanna', 'yvanna@gmail.com', 1234, 'Information Technology', 2314, '1324', 2),
+(29, 'adrien', 'adrien@gmail.com', 485, 'Information Technology', 6845, '85', 2),
+(28, 'esperance', 'esperance@gmail.com', 626887802, 'Information Technology', 205503318002, 'BF667@csvtu.ac.in', 1),
+(26, 'dior', 'diorverma@gmail.com', 6268882620, 'Information Technology', 525296, 'sdfsdfgr', 1),
+(27, 'fabrice', 'fabrice@gmail.com', 6268887802, 'Information Technology', 205503318002, 'sdfsafd', 1);
 
 -- --------------------------------------------------------
 
@@ -100,8 +100,8 @@ CREATE TABLE IF NOT EXISTS `candidate_2nd` (
 --
 
 INSERT INTO `candidate_2nd` (`id`, `name`, `email`, `mobile`, `branch`, `rollno`, `enrollid`, `approve_status`) VALUES
-(1, 'Mayank', 'mayank@gmail.com', 1238846, 'Information Technology', 68468, 'sdfsdf', 1),
-(2, 'Mayank', 'adfi8edhfousah@gmail.com', 65, 'Information Technology', 2005002, 'sdes', 1);
+(1, 'esperance', 'esperance@gmail.com', 1238846, 'Information Technology', 68468, 'sdfsdf', 1),
+(2, 'esperance', 'adfi8edhfousah@gmail.com', 65, 'Information Technology', 2005002, 'sdes', 1);
 
 -- --------------------------------------------------------
 
@@ -127,9 +127,9 @@ CREATE TABLE IF NOT EXISTS `candidate_3rd` (
 --
 
 INSERT INTO `candidate_3rd` (`id`, `name`, `email`, `mobile`, `branch`, `rollno`, `enrollid`, `approve_status`) VALUES
-(1, 'Mayank', 'mayank@gmail.com', 32412, 'Information Technology', 3342, '432', 1),
-(2, 'Parinay', 'mayank@gmail.com', 6269888, 'Mechanical', 6849545, '32432', 1),
-(3, 'Abhay', 'mayank@gmail.com', 626887802, 'Information Technology', 5255152, '3242134', 1);
+(1, 'esperance', 'esperance@gmail.com', 32412, 'Information Technology', 3342, '432', 1),
+(2, 'mr_mbia', 'esperance@gmail.com', 6269888, 'Mechanical', 6849545, '32432', 1),
+(3, 'adrien', 'esperance@gmail.com', 626887802, 'Information Technology', 5255152, '3242134', 1);
 
 -- --------------------------------------------------------
 
@@ -151,8 +151,8 @@ CREATE TABLE IF NOT EXISTS `contact` (
 --
 
 INSERT INTO `contact` (`id`, `name`, `email`, `message`) VALUES
-(1, 'Aditya', 'adityakumarverified@gmail.com', 'nothing'),
-(2, 'Aditya', 'adityakumarverified@gmail.com', 'nothing');
+(1, 'Aditya', 'fabrice@gmail.com', 'nothing'),
+(2, 'Aditya', 'fabrice@gmail.com', 'nothing');
 
 -- --------------------------------------------------------
 
@@ -176,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `suggestion` (
 --
 
 INSERT INTO `suggestion` (`id`, `name`, `email`, `number`, `rollno`, `suggestion`) VALUES
-(1, 'Aditya', 'adityakumarverified@gmail.com', 9898, 651, 'Nothing');
+(1, 'Aditya', 'fabrice@gmail.com', 9898, 651, 'Nothing');
 
 -- --------------------------------------------------------
 
@@ -202,15 +202,15 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `Branch`, `number`, `candidate`, `rollno`, `reason`) VALUES
-(26, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 205503318002, 'nothing'),
-(27, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Prakash', 205503318002, ''),
-(28, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 3453, ''),
-(29, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 3242, ''),
-(30, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 205503318002, ''),
-(31, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 208850, ''),
-(32, 'Aditya Kumar', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Mayank', 20855, ''),
-(33, 'Abhay', 'adfi8edhfousah@gmail.com', 'IT', 6264874874, 'Mayank', 684985, ''),
-(34, 'Mayank', 'adfi8edhfousah@gmail.com', 'IT', 95489, 'Mayank', 65456, 'tghgfh');
+(26, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 205503318002, 'nothing'),
+(27, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'dior', 205503318002, ''),
+(28, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 3453, ''),
+(29, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 3242, ''),
+(30, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 205503318002, ''),
+(31, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 208850, ''),
+(32, 'fabrice', 'fabrice@gmail.com', 'IT', 6268887802, 'esperance', 20855, ''),
+(33, 'adrien', 'adrien@gmail.com', 'IT', 6264874874, 'esperance', 684985, ''),
+(34, 'esperance', 'esperance@gmail.com', 'IT', 95489, 'esperance', 65456, 'tghgfh');
 
 -- --------------------------------------------------------
 
@@ -236,9 +236,9 @@ CREATE TABLE IF NOT EXISTS `users_2nd` (
 --
 
 INSERT INTO `users_2nd` (`id`, `name`, `email`, `Branch`, `number`, `candidate`, `rollno`, `reason`) VALUES
-(1, 'Parinay', 'mayank@gmail.com', 'IT', 626289, 'Mayank', 9845, 'dsft'),
-(2, 'aditya', 'mayank@gmail.com', 'IT', 6266, 'Parinay', 626887802, 'sea'),
-(3, 'Mayank', 'mayank@gmail.com', 'IT', 626887802, 'Mayank', 205503318022, 'nothing');
+(1, 'adrien', 'esperance@gmail.com', 'IT', 626289, 'esperance', 9845, 'dsft'),
+(2, 'adrien', 'esperance@gmail.com', 'IT', 6266, 'Parinay', 626887802, 'sea'),
+(3, 'esperance', 'esperance@gmail.com', 'IT', 626887802, 'esperance', 205503318022, 'nothing');
 
 -- --------------------------------------------------------
 
@@ -264,8 +264,8 @@ CREATE TABLE IF NOT EXISTS `users_3rd` (
 --
 
 INSERT INTO `users_3rd` (`id`, `name`, `email`, `Branch`, `number`, `candidate`, `rollno`, `reason`) VALUES
-(1, 'Abhay', 'mayank@gmail.com', 'IT', 684565, 'Parinay', 651, 'sade'),
-(2, 'Aditya', 'adityakumarverified@gmail.com', 'IT', 6268887802, 'Parinay', 205503318002, 'nothing\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+(1, 'adrien', 'esperance@gmail.com', 'IT', 684565, 'Parinay', 651, 'sade'),
+(2, 'Aditya', 'fabrice@gmail.com', 'IT', 6268887802, 'Parinay', 205503318002, 'nothing\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

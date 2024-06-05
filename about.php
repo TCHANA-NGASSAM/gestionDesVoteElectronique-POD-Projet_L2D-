@@ -42,13 +42,7 @@ include("header.html");
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>Online voting systems are software platforms used to securely conduct votes and elections. As a digital platform, they eliminate the need to cast your votes using paper or having to gather in person.
- 
-                    They also protect the integrity of your vote by preventing voters from being able to vote multiple times.
-                     
-                    Many secure voting platform vendors provide supportive vote management consulting services that help organizations design and implement their voting procedures.
-                     
-                    These services help organizations save time, stick to best practices, and meet internal requirements and/or external regulations, such as third-party vote administration needs.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, animi voluptatem, voluptate quam ratione, corporis error dolorum tempore quia consequuntur sequi asperiores veniam a eligendi rem delectus voluptas reprehenderit aperiam. Nihil corporis quia maiores impedit minima esse facilis quam, error perspiciatis natus, neque quisquam quod? Officia doloribus eligendi exercitationem odit repellat delectus provident architecto libero, maxime distinctio voluptatibus temporibus laudantium? Dicta laudantium cupiditate, necessitatibus minima atque inventore perspiciatis veritatis rem libero voluptatibus doloribus ipsum veniam nostrum. Incidunt ipsa et dicta vel, ex nemo quisquam consectetur reprehenderit, numquam soluta dolores. Ad vero est quibusdam doloremque dicta debitis. Deleniti laborum quod itaque.</p>
             </div>
             
         </div>
@@ -56,16 +50,10 @@ include("header.html");
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 style="text-align:center; margin-top:50px;"> Who can benefit from them ? </h1>
+                <h1 style="text-align:center; margin-top:50px;">Lorem ipsum dolor sit amet.</h1>
             </div>
             <div class="col-md-12">
-                <p> The short answer is: anyone who makes decisions.
-
-                    Consistent, structured decision-making needs span across organization types and industries.
-                    
-                    Individuals in organizations ranging from award shows, to law firms, to corporations, to schools will find value in online voting.
-                    
-                    Simply put - if a group of people needs to make a decision, and that decision requires input from others, an online voting system will be of value. </p>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, eum iste sapiente magnam quo minus tempore temporibus a id distinctio, asperiores laboriosam. Eligendi enim, accusamus, sapiente quae ipsam unde officia tempora necessitatibus, fugiat sit culpa quasi mollitia soluta aliquam ducimus! Iure impedit ipsam nobis eum quam, debitis odit doloribus. Esse. </p>
                 
               
                 </div>

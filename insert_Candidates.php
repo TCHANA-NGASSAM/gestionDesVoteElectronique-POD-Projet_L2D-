@@ -58,12 +58,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6" >
-                <h1 style="padding-top: 20px;">Candidate Enroll</h1>
-                <p style="padding-top: 20px;">1<sup>st</sup> Year Enroll</p>
+                <h1 style="padding-top: 20px;">inscription candidats</h1>
+                <p style="padding-top: 20px;">1<sup>st</sup> annne d'inscription</p>
                 <form action="process_cand.php" method="post">
                 <table>
                     <tr>
-                        <td class="td-1">Name :</td>
+                        <td class="td-1">Nom:</td>
                         <td class="td-1"><input   requiredtype="text" style="text-align: left;" name="txtName" autofocus></td>
                     </tr>
                     <tr>
@@ -71,7 +71,7 @@
                         <td class="td-1"><input   requiredtype="email" style="text-align: left;" name="txtEmail"></td>
                     </tr>
                     <tr>
-                        <td class="td-1">Mobile Number :</td>
+                        <td class="td-1">tel :</td>
                         <td class="td-1"><input  required type="number" style="text-align: left;" name="txtNumber"></td>
                     </tr>
                     <tr>
