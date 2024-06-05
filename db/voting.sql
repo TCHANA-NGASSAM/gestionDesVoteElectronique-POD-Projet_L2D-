@@ -151,8 +151,8 @@ CREATE TABLE IF NOT EXISTS `contact` (
 --
 
 INSERT INTO `contact` (`id`, `name`, `email`, `message`) VALUES
-(1, 'Aditya', 'fabrice@gmail.com', 'nothing'),
-(2, 'Aditya', 'fabrice@gmail.com', 'nothing');
+(1, 'adrien', 'fabrice@gmail.com', 'nothing'),
+(2, 'adrien', 'fabrice@gmail.com', 'nothing');
 
 -- --------------------------------------------------------
 
@@ -176,7 +176,7 @@ CREATE TABLE IF NOT EXISTS `suggestion` (
 --
 
 INSERT INTO `suggestion` (`id`, `name`, `email`, `number`, `rollno`, `suggestion`) VALUES
-(1, 'Aditya', 'fabrice@gmail.com', 9898, 651, 'Nothing');
+(1, 'Adrien', 'fabrice@gmail.com', 9898, 651, 'Nothing');
 
 -- --------------------------------------------------------
 
@@ -265,7 +265,7 @@ CREATE TABLE IF NOT EXISTS `users_3rd` (
 
 INSERT INTO `users_3rd` (`id`, `name`, `email`, `Branch`, `number`, `candidate`, `rollno`, `reason`) VALUES
 (1, 'adrien', 'esperance@gmail.com', 'IT', 684565, 'Parinay', 651, 'sade'),
-(2, 'Aditya', 'fabrice@gmail.com', 'IT', 6268887802, 'Parinay', 205503318002, 'nothing\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+(2, 'Adrien', 'fabrice@gmail.com', 'IT', 6268887802, 'Parinay', 205503318002, 'nothing\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
